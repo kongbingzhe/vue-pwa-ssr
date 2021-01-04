@@ -87,8 +87,6 @@ npm run dev
 
 应用访问: http://127.0.0.1:7001
 
-![npm start启动]
-
 ##### 发布模式启动应用
 
 - 首先在本地或者ci构建好jsbundle文件
