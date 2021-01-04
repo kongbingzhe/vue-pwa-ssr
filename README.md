@@ -12,7 +12,7 @@
 ## 目录结构
 
 ```
-|- app
+|- app                        服务端代码
 |   |
 |   |- controller             egg控制器
 |   |
@@ -26,29 +26,34 @@
 |
 |- config                     egg配置文件
 |
+|- build                      webpack构建文件
+|   |
+|   |- webpack.client.js      客户端激活代码构建配置
+|   |
+|   |- webpack.server.js      服务端渲染代码构建配置
+|
 |- public                     服务端渲染后，客户端激活的代码
 |
 |- web                        客户端代码
-|   |
-|   |- asset                  page中使用的css、img、font
-|   |
-|   |- components             page中使用的组件           
-|   |
-|   |- framework              客户端和服务端公用骨架相关代码
-|   |
-|   |- page                   各个路由的页面级组件
-|   |
-|   |- router                 vueRouter相关设置
-|   |
-|   |- store                  vuex相关设置
-|   |
-|   |- static                 客户端用到的favicon.ico等资源
-|   |
-|   |- pwa                    pwa相关的文件
-|   |
-|   |- utils                  错误处理、请求处理、时间转换、数据转换等工具方法
-|   
-|- webpack.config.js          easyWebpack扩展配置
+    |
+    |- asset                  page中使用的css、img、font
+    |
+    |- components             page中使用的组件           
+    |
+    |- framework              客户端和服务端公用骨架相关代码
+    |
+    |- page                   各个路由的页面级组件
+    |
+    |- router                 vueRouter相关设置
+    |
+    |- store                  vuex相关设置
+    |
+    |- static                 客户端用到的favicon.ico等资源
+    |
+    |- pwa                    pwa相关的文件
+    |
+    |- utils                  错误处理、请求处理、时间转换、数据转换等工具方法
+
 ```
 
 
